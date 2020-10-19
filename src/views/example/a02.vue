@@ -9,7 +9,9 @@
 import * as THREE from 'three'
 export default {
   data () {
-    return {}
+    return {
+      title: 'xx'
+    }
   },
   created () {
     console.log('created')
